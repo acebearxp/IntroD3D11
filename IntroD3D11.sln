@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "A1D3D11Basic", "A1D3D11Basic\A1D3D11Basic.vcxproj", "{9F7B49CA-F9EC-40BC-8D3E-6C616750F177}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "A2D3D11Hills", "A2D3D11Hills\A2D3D11Hills.vcxproj", "{AB24CC00-7797-4A63-90A8-A842FF7C90F5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "S11", "S11\S11.vcxproj", "{E483C3D5-FE24-4276-BC64-C9202405B39C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1C61C562-DEE8-4D42-BFCB-E0D523DA3A35}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		Directory.Build.targets = Directory.Build.targets
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "A3D3D11Shapes", "A3D3D11Shapes\A3D3D11Shapes.vcxproj", "{861BC257-E111-4A9B-9878-F9E787A09391}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E483C3D5-FE24-4276-BC64-C9202405B39C} = {E483C3D5-FE24-4276-BC64-C9202405B39C}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "A4D3D11Lighting", "A4D3D11Lighting\A4D3D11Lighting.vcxproj", "{0DA136DE-E66D-47EF-9B8F-0EE227208445}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E483C3D5-FE24-4276-BC64-C9202405B39C} = {E483C3D5-FE24-4276-BC64-C9202405B39C}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "A5D3D11Texture", "A5D3D11Texture\A5D3D11Texture.vcxproj", "{3B02D7F1-DC01-47ED-A4B4-8D28C599BE26}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E483C3D5-FE24-4276-BC64-C9202405B39C} = {E483C3D5-FE24-4276-BC64-C9202405B39C}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9F7B49CA-F9EC-40BC-8D3E-6C616750F177}.Debug|x64.ActiveCfg = Debug|x64
+		{9F7B49CA-F9EC-40BC-8D3E-6C616750F177}.Debug|x64.Build.0 = Debug|x64
+		{9F7B49CA-F9EC-40BC-8D3E-6C616750F177}.Release|x64.ActiveCfg = Release|x64
+		{9F7B49CA-F9EC-40BC-8D3E-6C616750F177}.Release|x64.Build.0 = Release|x64
+		{AB24CC00-7797-4A63-90A8-A842FF7C90F5}.Debug|x64.ActiveCfg = Debug|x64
+		{AB24CC00-7797-4A63-90A8-A842FF7C90F5}.Debug|x64.Build.0 = Debug|x64
+		{AB24CC00-7797-4A63-90A8-A842FF7C90F5}.Release|x64.ActiveCfg = Release|x64
+		{AB24CC00-7797-4A63-90A8-A842FF7C90F5}.Release|x64.Build.0 = Release|x64
+		{E483C3D5-FE24-4276-BC64-C9202405B39C}.Debug|x64.ActiveCfg = Debug|x64
+		{E483C3D5-FE24-4276-BC64-C9202405B39C}.Debug|x64.Build.0 = Debug|x64
+		{E483C3D5-FE24-4276-BC64-C9202405B39C}.Release|x64.ActiveCfg = Release|x64
+		{E483C3D5-FE24-4276-BC64-C9202405B39C}.Release|x64.Build.0 = Release|x64
+		{861BC257-E111-4A9B-9878-F9E787A09391}.Debug|x64.ActiveCfg = Debug|x64
+		{861BC257-E111-4A9B-9878-F9E787A09391}.Debug|x64.Build.0 = Debug|x64
+		{861BC257-E111-4A9B-9878-F9E787A09391}.Release|x64.ActiveCfg = Release|x64
+		{861BC257-E111-4A9B-9878-F9E787A09391}.Release|x64.Build.0 = Release|x64
+		{0DA136DE-E66D-47EF-9B8F-0EE227208445}.Debug|x64.ActiveCfg = Debug|x64
+		{0DA136DE-E66D-47EF-9B8F-0EE227208445}.Debug|x64.Build.0 = Debug|x64
+		{0DA136DE-E66D-47EF-9B8F-0EE227208445}.Release|x64.ActiveCfg = Release|x64
+		{0DA136DE-E66D-47EF-9B8F-0EE227208445}.Release|x64.Build.0 = Release|x64
+		{3B02D7F1-DC01-47ED-A4B4-8D28C599BE26}.Debug|x64.ActiveCfg = Debug|x64
+		{3B02D7F1-DC01-47ED-A4B4-8D28C599BE26}.Debug|x64.Build.0 = Debug|x64
+		{3B02D7F1-DC01-47ED-A4B4-8D28C599BE26}.Release|x64.ActiveCfg = Release|x64
+		{3B02D7F1-DC01-47ED-A4B4-8D28C599BE26}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {981B5BB5-54F2-4FEE-A882-702A90230721}
+	EndGlobalSection
+EndGlobal

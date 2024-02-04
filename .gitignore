@@ -1,0 +1,10 @@
+# Visual Studio
+.vs/
+x64/
+
+*.user
+*.filters
+*.aps
+
+# VS Code
+.vscode/

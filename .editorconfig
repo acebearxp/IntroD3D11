@@ -1,0 +1,7 @@
+# To learn more about .editorconfig see https://aka.ms/editorconfigdocs
+# All files
+[*]
+
+# Code files
+[*.{h,cpp}]
+charset = utf-8
